@@ -8,3 +8,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer components {
+  .button {
+    @apply cursor-pointer text-lg font-bold bg-gray-100 border-2 border-gray-300 rounded-lg p-5 hover:bg-gray-200 hover:scale-[1.02] transition-all duration-300;
+  }
+}
